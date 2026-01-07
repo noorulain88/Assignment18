@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 18</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Assignment 18</h1>
     <!-- program 01 -->
-    <div>
-        <label for="dob">Date of Birth:</label>
-         <input type="text" name="" id="dateOfBirth"placeholder="Enter Date of Birth ">
+    <div class="dobDiv">
+        <label for="dob" class="dateOfBirth">Date of Birth:</label>
+         <input type="text" name="" id="dateOfBirth"placeholder="Enter Date of Birth "class="dateOfBirth">
         <br> 
-        <p id="user-dob"></p>
-        <button onclick="getAge()" >Get your age</button>
+        <p id="user-dob" class="dateOfBirth"></p>
+        <button onclick="getAge()" class="dobButton">Get your age</button>
     </div>
     <!-- program 02 -->
-     <hr>
-     <div>
-        <label for="password">password</label>
-        <input type="password" name="" id="password" placeholder="Enter your password">
+     <br>
+     <div class="dobDiv">
+        <label for="password" class="dateOfBirth">password</label>
+        <input type="password" name="" id="password" placeholder="Enter your password"class="dateOfBirth">
           <br> 
-        <p id="user-password"></p>
-        <button onclick="getPassword()" >Enter your password</button>
+        <p id="user-password" class="dateOfBirth"></p>
+        <button onclick="getPassword()" class="dobButton" >Enter your password</button>
      </div>
-        <hr>
+     <br>
 <!-- program 03 -->
- 
+ <div class="dobDiv">
+    <label for="Obtined" class="dateOfBirth">Obtined Marks</label>
+    <input type="text" name="marks" id="obtain" placeholder="Enter your  obtain marks" class="dateOfBirth">
+    <br>
+        <label for="Total">Total Marks</label>
+    <input type="text" name="marks" id="total" placeholder="Enter your  total marks"class="dateOfBirth">
+    <p id="user-marks" class="dateOfBirth"></p>
+    <button onclick=" getPercent()" class="dobButton">Get your percentage</button>
+    
+ </div>
+ <hr>
+  <!-- objects .... -->
+
 
 
     <script src="program.js"></script>
